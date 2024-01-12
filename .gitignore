@@ -22,3 +22,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.metadata/
+
+# Eclipse files
+.classpath
+.settings/
+.springBeans
+
+# 추가된 이클립스 관련 파일 및 디렉토리
+# .classpath: 이클립스 프로젝트의 클래스패스 설정
+# .settings/: 이클립스 특정 설정 정보를 포함
+# .springBeans: 스프링 프로젝트의 설정 정보
