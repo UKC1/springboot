@@ -5,7 +5,7 @@
 <mapper namespace="com.study.repository.BoardDao">
 	 <select id="list" resultType="com.study.dto.Board">
 	   select * 
-	   	from boardtest1 order by no desc
+	   	from boardtest1 order by no asc
 	 </select>
 	 
 	 <select id="detailBoard" resultType="com.study.dto.Board">
@@ -25,6 +25,6 @@
 	 </insert>
 	
 	<delete id="deleteBoard">
-		delete form boardtest1 where no=#{no}
+		delete from boardtest1 where no=#{no}
 	</delete>  
 </mapper>

@@ -1,14 +1,8 @@
 package com.study.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
 
 //@Data안에 들어있는 5가지 어노테이션
 //@Getter
@@ -25,6 +19,8 @@ import lombok.ToString;
 //@NoArgsConstructor
 //@AllArgsConstructor
 @Data
+// 기본생성자
+@NoArgsConstructor
 public class Board {
 	@NonNull // null값을 가질 수 없다 null이면 exception 발생
 	private int no;
