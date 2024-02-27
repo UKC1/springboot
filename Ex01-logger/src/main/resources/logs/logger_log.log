@@ -1,0 +1,6 @@
+2024-01-12 12:08:45 [main] [INFO ] com.study.Ex01LoggerApplication - Starting Ex01LoggerApplication using Java 17.0.9 with PID 16768 (C:\kkm\workspace\springboot\Ex01-logger\bin\main started by lnewg in C:\kkm\workspace\springboot\Ex01-logger)
+2024-01-12 12:08:45 [main] [INFO ] com.study.Ex01LoggerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-12 12:08:46 [main] [INFO ] com.study.Ex01LoggerApplication - Started Ex01LoggerApplication in 1.047 seconds (process running for 1.622)
+2024-01-12 12:08:46 [main] [INFO ] com.study.LoggingRunner - Info 레벨 로그
+2024-01-12 12:08:46 [main] [WARN ] com.study.LoggingRunner - Warn 레벨 로그
+2024-01-12 12:08:46 [main] [ERROR] com.study.LoggingRunner - Error 레벨 로그
